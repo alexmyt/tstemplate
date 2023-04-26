@@ -22,9 +22,10 @@
     "experimentalDecorators": true
   },
   "include": [
-    "./packages/*/src",
-    "./packages/*/__tests__",
-    "./test",
+    "./src/**/*",
+    "./packages/*/src/**/*",
+    "./packages/*/__tests__/**/*",
+    "./test/**/*",
   ],
   "exclude": [
     "node_modules",
