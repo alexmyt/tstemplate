@@ -4,6 +4,7 @@
   "description": "Template for start dev with TypeScrypt",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf ./dist && tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
